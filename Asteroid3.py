@@ -11,7 +11,7 @@ import pygame, random, sys
 pygame.init()
 clock=pygame.time.Clock()
 screen = pygame.display.set_mode((400,600))
-pygame.display.set_caption("Astroid")
+pygame.display.set_caption("Asteroid")
 background_image = pygame.image.load("bg2.jpg").convert()
 
 BLUE=(0,0,255)
